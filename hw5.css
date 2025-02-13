@@ -1,0 +1,35 @@
+body{
+    display: grid; 
+    background-color: #faed3e;
+}
+
+div#container{
+    background-color: black;
+    width: 800px;
+    height: 700px;
+    position: relative;
+    grid-row: 1 ;
+    grid-column: 1;
+}
+
+.ball{
+    border-radius: 100%;
+    position: absolute;
+}
+
+input{
+    width: 40%;
+    height: 15%;
+    border-radius: 10%;
+    background-color: chartreuse;
+    text-align: center;
+}
+
+.bt{
+    margin-right: 400px;
+    grid-row: 1;
+    grid-column: 2;
+}
+.text{
+    font-size: 2em;
+}
